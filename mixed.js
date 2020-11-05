@@ -13,7 +13,9 @@ function generateRMsg(arr) {
   //console.log(generateRMsg(messagesArr))
 
 function displayMsg (){
+  console.log("Your greetings for today are:")
     console.log(generateRMsg(messagesArr))
+    console.log("Still confused? run it Again!")
 }
 
 displayMsg()
